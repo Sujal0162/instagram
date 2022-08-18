@@ -2,10 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    tit
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="insta_symb.jpg" type="image/x-icon">
     <title>INSTAGRAM</title>    
 </head>
 <style>
@@ -14,7 +12,6 @@
         display: block;
         width: 27%;
         margin: auto;
-        /* margin-top: 30%; */
     }
     img{
             margin-top: 45px;
@@ -27,10 +24,7 @@
         margin: 5px;
         margin-left: 70px;
         border-radius: 4px;
-        /* border-color: rgb(233, 219, 219); */
-        border-color: rgb(255 5 5 / 5%);
-        /* background-color: whitesmoke; */
-        background-color: rgb(251, 247, 247);
+        border-color: rgb(233, 219, 219);
         
     }
     #IN2{
@@ -38,8 +32,7 @@
         padding:8px;
         margin-left: 70px;
         border-radius: 4px;
-        /* border-color: rgb(233, 219, 219); */
-        border-color: rgb(255 5 5 / 5%);
+        border-color: rgb(233, 219, 219);
     }
     #btn1{
         width: 67%;
@@ -81,22 +74,19 @@
     }
     .face_link #face{
         text-decoration: none;
-        /* padding-left: 149px; */
-        position: relative;
-        /* left: 37%; */
-
+        padding-left: 149px;
+        position: absolute;
+        bottom: 55%;
         color: #160a8b ;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
         /*'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
     }
-
     #for_pass{
         position: relative;
         left: 37%;
         bottom: 10px;
         text-decoration: none;
         color: #1a3496;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     }
    .form2{
@@ -108,14 +98,11 @@
         margin-top: 6px;
         padding-top:20px ;
         padding-bottom: 20px;
-        font-family:Arial, Helvetica, sans-serif
    }
    #sign_link{
     text-decoration: none;
    }
-   header{
-    width: 100px;
-   }
+   
 </style>
 <body>
     <div class="from">
@@ -123,8 +110,8 @@
             <header>
                 <img src="inst.png" alt="instagram">
                 <div class="input">
-                <input type="text" id="IN1" placeholder="Phone number,username,or email"><br>
-                <input type="password" id="IN2" placeholder="Password">
+                    <input type="text" id="IN1" placeholder="Phone number,username,or email"><br>
+                    <input type="password" id="IN2" placeholder="Password">
                     <br>
                     <button id="btn1"> <b> Log In</b></button>
                     <div class="OR"><b>OR</b></div>
@@ -143,7 +130,7 @@
                         <!-- https://www.facebook.com/ --> 
                     </div>
                     <div>
-                        <a id="for_pass" href="https://www.instagram.com/"><b>Forgot password?</b></a>
+                        <a id="for_pass" href="https://www.instagram.com/">Forgot password?</a>
                     </div>
                 </div>
             </header>
@@ -154,7 +141,7 @@
             <header>
                 <table>
                     <div>
-                        <b>Don't have an account? </b><a id="sign_link" href="https://www.instagram.com/"><b>Sign up</b></a>
+                        Don't have an account? <a id="sign_link" href="https://www.instagram.com/"><b>Sign up</b></a>
                     </div>
                 </table>
             </form>

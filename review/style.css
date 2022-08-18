@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(247, 245, 245);
+}
+
+table{
+    background-color: white;
+    margin: auto;
+    margin-top: 4%;
+    border: 1px solid rgb(202, 198, 198);
+    width: 100px;
+}
+td{
+    text-align: center;
+    width: 100px;
+}
+tr{
+    
+}
+#uname{
+    margin-left: auto;
+    height: 30px;
+    width: 270px;
+    border-radius: 3px;
+    border-color: rgb(241, 241, 241);
+    border-style:groove;
+}
+#pass{
+    margin-left: auto;
+    height: 30px;
+    width: 270px;
+    border-radius: 3px;
+    border-color: rgb(241, 241, 241);
+    border-style:groove;
+}
+#btn{
+    margin-left: auto;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border-style: none;
+    color: white;
+    background: rgb(56, 114, 230);
+    height: 30px;
+    width: 279px;
+    border-radius: 3px;
+}
+#logo{
+    height: 18px;
+    width: 18px;
+}
+#fb{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#fp{
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: small;
+}
+pre{
+    color: rgb(160, 160, 160);
+}
